@@ -1,0 +1,1227 @@
+*{
+    font-family:Manrope;
+    box-sizing: border-box;
+}
+
+body{
+    background: #140E17;
+    padding:80px 220px 220px 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.container{
+    margin-bottom: 64px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container.border-box{
+    box-sizing: border-box;
+}
+
+header{
+    margin-bottom: 64px;
+    max-width: 1018px;
+    margin: 0 auto;
+    }
+
+header .header-info{
+    display: flex;
+    gap: 41px;
+    background: #333333;
+    border: 1px solid #333333;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 24px;
+}
+
+header .header-info .right-side{
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+
+header .header-info .right-side .header-questions{
+       display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+header .header-info .right-side .header-questions a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+header .burger-adaptiv{
+    display: none;
+}
+
+.about-product{
+    display: flex;
+}
+
+.about-product .product-discription{
+    max-width: 539px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+       }
+ 
+.about-product .product-discription .conntact-me .my-email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    box-sizing: border-box;
+}
+
+.about-product .product-discription .conntact-me .my-email .email{
+    max-width: 317px;
+    width: 100%;
+    height: 61px;
+    color: #76757B;
+    border-radius: 18px;
+    padding: 18px 46px 18px 14px;
+    font-size: 18px;
+    font-weight: 600;
+   }
+
+.about-product .product-discription .conntact-me{
+    display: flex;
+    gap: 24px;
+}
+
+.about-product .product-discription .conntact-me .create-page{
+    max-width: 222px;
+    width: 100%;
+    align-items: center;
+    height: 61px;
+    background: #F5FA93;
+    color: #000000;
+    display: flex;
+    gap: 8px;
+    border-radius: 18px;
+    font-size:18px;
+    font-weight: 600;
+}
+
+.about-product .product-discription .conntact-me .create-page .button-write{
+   font-size: 18px;
+    align-items: center;
+    margin: 18px 0 18px 14px;
+}
+
+.about-product .phone-adaptive{
+    max-width: 382px;
+}
+
+.info-table{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.info-table .info-table-item{
+    border: 1px solid #F5FA93;
+    border-radius: 32px;
+    padding: 32px;
+    max-width: 318px;
+    width: 100%;
+}
+
+.info-table .info-table-item .table-icon-lines{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 24px;
+}
+
+.info-table .info-table-item .table-icon-star{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.info-table .info-table-item .table-icon-shine{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 24px;
+}
+
+.info-table .info-table-item .info-table-title{
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.info-table .info-table-item .info-table-description{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.screen-example-work {
+    display: flex;
+    flex-direction: row;
+    gap: 135px;
+    position: relative;
+    bottom: -106px;
+    height: 380px;
+}
+
+.screen-example-work .work-experience{
+    border: 1px solid #333333;
+    border-radius: 24px;
+    max-width: 545px;
+    width: 100%;
+    z-index: 1;
+    height: 324px;
+}
+
+.screen-example-work .work-experince-title{
+    font-weight: 600;
+    color: #AADB6B;
+    margin: 12px 0 17px 18px;
+}
+
+.screen-example-work .job-list{
+   display: flex;
+   flex-direction: column;
+   gap: 21px;
+   max-width: 509px;
+   width: 100%;
+   margin: 0 18px 15px 18px;
+}
+
+
+.screen-example-work .job-list .job .company{
+  color: #FFFFFF;
+  font-size: 18px;
+  width: 500;
+}
+
+.screen-example-work .job-list .job .company .period{
+     color: #76757B;
+     font-size: 13px;
+     width: 500;
+}
+
+.screen-example-work .job-list .job .company-link{
+   margin-bottom: 6px;
+}
+
+.screen-example-work .job-list .job .company-link a{
+    color: #76757B;
+    }
+
+.about-me-info{
+    max-width: 658px;
+    width: 100%;
+    border: 1px solid #333333;
+    border-radius: 23px;
+    position: absolute;
+    z-index: 2;
+    top: -24px;
+    left: 118px;
+    background:#140E17;
+}
+
+.about-me{
+   max-width: 513px;
+   width: 100%;
+   display: flex;
+   gap: 68px;
+   margin: 29px 72px;
+   padding: 0;
+}
+
+.about-me .my-photo{
+    max-width: 182px;
+    width: 100%;
+    height: 182px;
+}
+
+.about-me .short-description{
+    max-width: 250px;
+    width: 100%;
+    
+}
+
+.about-me .short-description .my-name{
+    font-weight: 800;
+    font-size: 31px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.about-me .short-description .description{
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 11px;
+    margin-bottom: 29px;
+}
+
+.about-me .short-description .button-write-action{
+    max-width: 105px;
+    width: 100%;
+    background: #F9D69E;
+    border-radius: 8px;
+}
+
+.about-me .short-description .button-write-action .write-me{
+     text-decoration: none;
+    color:#000000;
+    font-size:8px;
+    font-weight:600;
+    width: 78px;
+    padding: 8px 0 8px 6px;
+    text-align: center;
+}
+
+
+.about-me .short-description .button-write-action .write-action{
+    text-decoration: none;
+    color:#000000;
+    font-size:8px;
+    font-weight:600;
+    display: flex;
+    gap: 3px;
+    justify-content: space-between;
+}
+
+.about-me .short-description .button-write-action .write-action .pointer{
+    width: 10px;
+    margin: 8px 8px 8px 0;
+    padding: 0;
+}
+
+.screen-example-work .job-list .job .position{
+    color: white;
+    font-size:13px;
+    font-weight:500;
+}
+
+.project-portfolio{
+    max-width: 220px;
+    width: 100%;
+    height: 430px;
+    background: #FFAFB0;
+    border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: -100px;
+}
+
+.project-portfolio .AD-mini{
+    width: 170px;
+    height: 170px;
+}
+
+.project-portfolio .project-name{
+    color: Black;
+    font-size: 27px;
+    font-weight: 700;
+    margin: 15px 0 11px 0;
+}
+
+.project-portfolio .project-description{
+    margin: 0;
+    font-size: 11px;
+    font-weight: 500;
+    margin: 11px 0 11px 0;
+}
+
+.project-portfolio .button-show-project{
+    padding: 0 0 0 60px;
+} 
+
+.project-portfolio .show-project{
+    max-width: 117px;
+    width: 100%;
+    border: 1px solid #333333;
+    border-radius: 11px;
+    }
+
+.project-portfolio .show-project .show-project-name{
+    margin: 11px 0 11px 9px;
+    padding: 0;
+}
+
+.project-portfolio .show-project .show-pointer{
+    padding: 0;
+    margin: 7px 11px 4px 0;
+    width: 15px;
+    height: 15px;
+}
+
+.project-portfolio .show-project a{
+    display: flex;
+    gap: 5px;
+    font-weight: 600;
+    font-size: 11px;
+    text-decoration: none;
+    color: #000000;
+    justify-content: space-between;
+   }
+
+.container-example-work{
+    border: 1px solid #333333;
+    border-radius: 32px; 
+}
+
+.container-example-work .info-example-work{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 24px;
+}
+.container-example-work .info-example-work .item-info-screen{
+    color:White;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container-example-work .info-example-work .screen-button-free .screen-button{
+    border: 1px solid #333333;
+    border-radius: 18px;
+    padding: 18px 14px;
+}
+
+.container-example-work .info-example-work .screen-button-free{
+    display: flex;
+    justify-content: end;
+}
+    
+.container-example-work .info-example-work .screen-button-free .screen-button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+.trafics{
+    color: #F5FA93;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0 886px 0 24px;
+}
+
+ .trafic-list{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.trafic-list .basic, .premium{
+    background: #F5FA93;
+    border-radius: 32px;
+    padding: 32px;
+    max-width: 484px;
+    width: 100%;
+}
+
+
+.trafic-list .trafic-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.trafic-list .basic .trafic-flex .basic-name{
+    color: #000000;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0 320px 0 0;
+}
+
+.trafic-list .basic .trafic-flex .price{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    position: relative;
+    height: 60px
+}
+
+.trafic-list .basic .trafic-flex .price .rubles{
+    color: #000000;
+    font-weight: 800;
+    font-size: 68px;
+    position: absolute;
+    top: -19px;
+
+}
+
+.trafic-list .basic .trafic-flex .price .month{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 89px;
+    bottom: 0;
+}
+
+.trafic-list .basic .trafic-flex .basic-info, .premium-info{
+    color: #000000;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.trafic-list .basic .trafic-flex .basic-list ul,
+.trafic-list .premium .trafic-flex .premium-list ul{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.trafic-list .basic .trafic-flex .basic-list ul>li,
+.trafic-list .premium .trafic-flex .premium-list ul>li{
+    color: #000000;
+    font-size: 17px;
+    font-weight: 600;
+    list-style-image: url("./icons/check.svg");
+}
+
+.trafic-list .basic .basic-list{
+    margin-bottom: 56px;
+}
+
+.trafic-list .basic .basic-buttton,
+.trafic-list .premium .premium-buttton{
+   background: #000000;
+   border-radius: 18px;
+   max-width: 200px;
+   width: 100%;
+   padding: 18px 14px;
+   text-align: center;
+}
+
+.trafic-list .basic .basic-buttton a,
+.trafic-list .premium .premium-buttton a{
+    color: #FFFFFF;
+    text-decoration: none;
+   
+}
+
+.trafic-list .premium .trafic-flex .premium-name{
+     color: #000000;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0 315px 0 0;
+}
+
+.trafic-list .premium .trafic-flex .price{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    position: relative;
+     height: 60px;
+}
+
+.trafic-list .premium .trafic-flex .price .rubles{
+    color: #000000;
+    font-weight: 800;
+    font-size: 68px;
+    position: absolute;
+    top: -19px;
+}
+.trafic-list .premium .trafic-flex .price .month{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 170px;
+    bottom: 0;
+}
+
+.trafic-list .premium .trafic-flex .premium-list{
+   margin-bottom: 24px;
+}
+
+ .best-choice{
+    background: #000000;
+    border-radius: 18px;
+    border: 1px solid #333333;
+    max-width: 144px;
+    width: 100%;
+    position: absolute;
+    top: 65px;
+    right: 32px
+}
+
+ .best-choice .best-choice-text{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 14px 0 14px 0;
+}
+
+.about-FAQ .question-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-FAQ .question-items .question-item{
+    border: 1px solid #333333;
+    border-radius: 32px;
+    }
+
+.about-FAQ .question-items .questions{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 24px 0 24px 24px;
+    position: relative;
+}
+
+.about-FAQ h3{
+    color: #F5FA93;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 930px 32px 24px; 
+    position: relative;
+}
+
+#menu-1,#menu-2,#menu-3,#menu-4,#menu-5{
+ appearance: none;
+ width: 0;
+ height: 0;
+}
+ 
+ #menu-1::before{
+  content:url(./icons/pluse-icon.svg);
+  width: 16px;
+  height: 16px;
+  transition: 500ms;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 24px;
+  top: 9px;
+}
+#menu-1:checked::before{
+    content:url(./icons/minus-icon.svg);
+    width: 16px;
+    height: 16px;
+    transition: 500ms;
+}
+
+#menu-2::before{
+content:url(./icons/pluse-icon.svg);
+  width: 16px;
+  height: 16px;
+  transition: 500ms;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 24px;
+  top: 9px;
+}
+#menu-2:checked::before{
+    content:url(./icons/minus-icon.svg);
+    width: 16px;
+    height: 16px;
+    transition: 500ms;
+}
+#menu-3::before{
+content:url(./icons/pluse-icon.svg);
+  width: 16px;
+  height: 16px;
+  transition: 500ms;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 24px;
+  top: 9px;
+}
+#menu-3:checked::before{
+    content:url(./icons/minus-icon.svg);
+    width: 16px;
+    height: 16px;
+    transition: 500ms;
+}
+#menu-4::before{
+content:url(./icons/pluse-icon.svg);
+  width: 16px;
+  height: 16px;
+  transition: 500ms;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 24px;
+  top: 9px;
+}
+#menu-4:checked::before{
+    content:url(./icons/minus-icon.svg);
+    width: 16px;
+    height: 16px;
+    transition: 500ms;
+}
+#menu-5::before{
+content:url(./icons/pluse-icon.svg);
+  width: 16px;
+  height: 16px;
+  transition: 500ms;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 24px;
+  top: 9px;
+}
+#menu-5:checked::before{
+    content:url(./icons/minus-icon.svg);
+    width: 16px;
+    height: 16px;
+    transition: 500ms;
+}
+
+.about-FAQ .question-items .question-item  ul{
+    display: none;
+    padding: 0;
+}
+
+.about-FAQ .question-items .p-item-1{
+    margin: 0;
+    color: #787878;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.about-FAQ .question-items .p-item-2{
+    color: #787878;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.about-FAQ .question-items .question-item :checked~ul{
+    display: inline-block;
+}
+
+footer{
+    margin: 0 auto;
+}
+
+.footer-description {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+
+.footer-description .footer-section-1{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+
+.footer-description .footer-section-2{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footer-description .Quicklink {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-description .Quicklink .mini-logo-style{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.footer-description .Quicklink .mini-logo-style .mini-logo{
+    width: 24px;
+    height: 24px;
+}
+
+.footer-description .Quicklink .mini-logo-style .mini-logo-name{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.footer-description .Quicklink .Quicklink-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-description .orientation-footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-description .orientation-footer ul>li{
+    list-style: none;
+}
+
+.footer-description .orientation-footer ul>li>a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.massage{
+    position: fixed;
+    bottom: 64px;
+    right: 220px;
+    height: 56px
+}
+
+@media screen and (max-width: 1025px) {
+    body{
+        padding: 64px 20px 220px 20px;
+    }
+    
+    .container{
+        max-width: 728px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .container.border-box{
+        max-width: 728px;
+    }
+
+    header{
+        max-width: 728px;
+        width: 100%;
+        margin:0 auto;
+    }
+
+    header .header-info .right-side{
+        display: none;
+    }
+
+    header .burger-adaptiv{
+        display: block;
+    }
+     header .burger-adaptiv .header-menu ul{
+        display: none;
+        position: absolute;
+        right: 114px;
+        top: 64px;
+     }
+    
+      #header-burger{
+        appearance: none;
+        width: 56px;
+        height: 40px;
+        content: url(./icons/logo-burger.svg);
+        position: relative;
+      }
+      #header-burger:checked{
+        content: url(./icons/logo-check.svg);
+        width: 56px;
+        height: 40px;
+        z-index: 11;
+      }
+      header .burger-adaptiv .header-menu :checked~ul{
+        display: inline-flex;
+        flex-direction: column;
+        background: #333333;
+        border-radius: 32px;
+        max-width: 728px;
+        width: 100%;
+        height: 522px;
+        padding: 112px 24px 18px 24px;
+        z-index: 10;
+      }
+      header .burger-adaptiv .header-menu :checked~ul>a{
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 24px;
+        font-weight: 500;
+        border-bottom: 1px solid #76757B;
+        padding: 24px 0 24px 24px;
+      }
+    header .burger-adaptiv .header-menu :checked~ul>a :hover{
+        color: #F5FA93;
+      }
+    
+    .about-product{
+        gap: 0;
+    }
+
+    .about-product .product-discription .product-discription-image{
+    z-index: 2;
+    position: relative;
+    }
+
+    .about-product .phone-image{
+        z-index: 1;
+        position: absolute;
+        right: 0;
+        opacity: 0.5;
+    }
+
+    .info-table{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .info-table .info-table-item{
+     max-width: 728px;
+     width: 100%;
+    }
+
+    .screen-example-work .work-experience{
+        max-width: 392px;
+        width: 100%;
+    }
+
+    .about-me-info{
+        max-width: 473px;
+        width: 100%;
+    }
+
+    .about-me{
+        max-width: 369px;
+        width: 100%;
+        display: flex;
+        gap: 49px;
+        margin: 21px 52px;
+        padding: 0;
+    }
+
+    .about-me .my-photo{
+        max-width: 131px;
+        width: 100%;
+        height: 131px;
+    }
+
+    .about-me .short-description{
+        max-width: 180px;
+        width: 100%;
+    }
+
+    .about-me .short-description .my-name{
+        font-size: 22px;
+        }
+
+    .about-me .short-description .description{
+        font-size: 7px;
+    }
+
+    .project-portfolio{
+        max-width: 158px;
+        width: 100%;
+        padding: 15px;
+        height: 334px;
+    }
+
+    .project-portfolio .AD-mini{
+        max-width: 128px;
+        width: 100%;
+        height: 122px;
+    }
+
+    .project-portfolio .project-name{
+        font-size: 19px;
+        margin: 8px 0 8px 6px;
+    }
+
+    .project-portfolio .project-description{
+        font-size: 8px;
+    }
+
+    .project-portfolio .button-show-project {
+    padding: 0 0 0 43px;
+    }
+
+    .project-portfolio .show-project{
+        max-width: 85px;
+        width: 100%;
+    }
+
+    .project-portfolio .show-project a{
+        gap: 3px;
+    }
+
+    .project-portfolio .show-project .show-project-name{
+        font-size: 8px;
+    }
+
+    .project-portfolio .show-project .show-pointer{
+        width: 11px;
+        height: 11px;
+        margin: 6px 8px 8px 0;
+    }
+
+    .trafic-list .basic, .premium{
+        max-width: 348px;
+        width: 100%;
+    }
+
+    footer{
+        margin: 0 auto;
+    }
+
+    .footer-description {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+    .massage{
+        right: 20px;
+    }
+}
+@media screen and(max-width:900px) {
+        header .burger-adaptiv .header-menu ul{
+            right: 83px;
+        }
+}
+@media screen and (max-width:800px) {
+    header {
+        max-width: 637px;
+        width: 100%
+}
+    header .burger-adaptiv .header-menu :checked~ul{
+        max-width: 500px;
+        width: 100%;
+    }
+}
+
+@media screen and(max-width:550px){
+    header .burger-adaptiv .header-menu :checked~ul {
+        max-width: 300px;
+        width: 100%;
+    }
+    header .burger-adaptiv .header-menu ul{
+        right: 42px;
+        top: 54px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    body{
+        padding: 64px 20px;
+        margin: 0;
+    }
+    .container{
+        max-width: 335px;
+        width: 100%;
+    }
+
+    .container.border-box{
+       max-width: 335px;
+        width: 100%; 
+    }
+
+    header{
+        max-width: 335px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+        header .burger-adaptiv .header-menu ul{
+            right: 34px;
+        }
+
+    .about-product .phone-image {
+        left: 105px;
+    }
+
+    .about-product .phone-image .phone-adaptive{
+        max-width: 200px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .about-product .product-discription .conntact-me{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+    .screen-example-work{
+        gap: 45px;
+        height: 146px;
+    }
+
+    .screen-example-work .job-list{
+        gap: 7px;
+        max-width: 187px;
+        width: 100%;
+        margin: 0 6px 0 6px;
+    }
+
+    .screen-example-work .work-experience {
+        max-width: 182px;
+        width: 100%;
+        height: 120px;
+        border-radius: 8px;
+    }
+
+    .screen-example-work .work-experince-title{
+    margin: 6px 0 8px 6px;
+    font-size: 6px;
+    }
+
+    .screen-example-work .job-list .job .company{
+        font-size: 6px;
+    }
+
+    .screen-example-work .job-list .job .company .period{
+        font-size: 4px;
+    }
+
+    .screen-example-work .job-list .job .company-link{
+        font-size: 4px;
+    }
+
+    .screen-example-work .job-list .job .position{
+        font-size: 4px;
+    }
+
+    .about-me-info{
+        max-width: 220px;
+        width: 100%;
+        top: -7px;
+        left: 39px;
+    }
+
+    .about-me{
+        max-width: 171px;
+        width: 100%;
+        margin: 9px 24px;
+        gap: 22px;
+    }
+
+    .about-me .my-photo {
+        max-width: 61px;
+        width: 100%;
+        height: 61px;
+    }
+    .about-me .short-description .my-name{
+        font-size: 10px;
+        margin-bottom: 3px;
+    }
+    .about-me .short-description .description {
+        font-size: 3px;
+        margin-bottom: 9px;
+    }
+    .about-me .short-description{
+        max-width: 84px;
+        width: 100%;
+    }
+    .about-me .short-description .button-write-action {
+    max-width: 35px;
+    width: 100%;
+    }
+    .about-me .short-description .button-write-action {
+    max-width: 35px;
+    width: 100%;
+    border-radius: 2px;
+    }
+    .about-me .short-description .button-write-action .write-action{
+        gap: 1px;
+    }
+    .about-me .short-description .button-write-action .write-me{
+    width: 26px;
+    font-size: 2px;
+    padding: 2px;
+    }
+    .about-me .short-description .button-write-action .write-action .pointer {
+    width: 2px;
+    margin: 2px 2px 2px 0;
+    padding: 0;
+}
+    .screen-example-work{
+    bottom: -75px;
+    height: 170px;
+    }
+    .project-portfolio {
+        max-width: 73px;
+        width: 100%;
+        padding: 7px 7px 6px 7px;
+        height: 144px;
+        margin-top: -24px;
+        margin-right: -53px;
+    }
+    .project-portfolio .AD-mini {
+        max-width: 57px;
+        width: 100%;
+        height: 57px;
+    }
+    .project-portfolio .project-name {
+        font-size: 9px;
+        margin: 5px 0 3px 0;
+    }
+    .project-portfolio .project-description {
+        font-size: 3px;
+        margin-bottom: 3px;
+    }
+    .project-portfolio .button-show-project {
+        padding: 0 0 0 20px;
+        border-radius: 3px
+    }
+    .project-portfolio .show-project a {
+        gap: 1px;
+    }
+    .project-portfolio .show-project .show-project-name {
+        font-size: 3px;
+        margin: 4px 0 4px 3px;
+    }
+    .project-portfolio .show-project .show-pointer {
+        width: 5px;
+        height: 5px;
+        margin: 3px 3px 5px 0;
+    }
+    .trafic-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    }
+    .footer-description .footer-section-1{
+        flex-direction: column;
+        max-width: 335px;
+        width: 100%;
+        
+    }
+    
+    .footer-description .footer-section-2{
+        flex-direction: column;
+        max-width: 335px;
+        width: 100%;
+    }
+    footer {
+    max-width: 335px;
+    width: 100%;
+    }
+    .footer-description .Quicklink{
+        margin-left:-69px;
+    } 
+    footer .footer-section-1 .orientation-footer{
+        margin-left: -112px;
+    }
+} 
+
+@media screen and (max-width:400px) {
+    header .burger-adaptiv .header-menu :checked~ul{
+        max-width: 250px;
+        width: 100%;
+    }
+    header .burger-adaptiv .header-menu ul{
+        right: 18px;
+    }
+}
